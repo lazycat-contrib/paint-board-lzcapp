@@ -1,13 +1,12 @@
 application:
-    subdomain: paint-board
-    background_task: true
-    public_path:
-        - /
-    upstreams:
-        - location: /
-          backend: http://paint-board
-
+  subdomain: paint-board
+  background_task: true
+  public_path:
+    - /
+  upstreams:
+    - location: /
+      backend: http://paint-board
 services:
-    paint-board:
-        # upstream: ghcr.io/fc6a1b03/paint-board:1.5.7
-        image: xget.xi-xu.me/cr/ghcr/fc6a1b03/paint-board:1.5.7
+  paint-board:
+    # upstream: ghcr.io/fc6a1b03/paint-board:2.0.0
+    image: xget.xi-xu.me/cr/ghcr/fc6a1b03/paint-board:2.0.0
