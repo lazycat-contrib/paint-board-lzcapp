@@ -1,0 +1,16 @@
+package: lazycat.community.app.paint-board
+version: 1.5.7
+name: Paint Board
+description: "🎨 A powerful multi-end drawing board with creative brushes and rich drawing effects"
+min_os_version: 1.5.0
+homepage: https://github.com/LHRUN/paint-board
+author: LHRUN
+
+locales:
+  zh:
+    name: "Paint Board"
+    description: "一款汇集多种创意画笔和绘画效果的多端画板"
+  en:
+    name: "Paint Board"
+    description: "A powerful multi-end drawing board with creative brushes and rich drawing effects"
+
